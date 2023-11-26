@@ -1,0 +1,33 @@
+   body {
+    background: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+   }
+
+   .attribution{
+    display: flex;
+    background:  hsl(0, 0%, 100%);
+    margin:  100px auto;
+    flex-flow: column;
+    align-items: center;
+    width: 250px; 
+    padding: 10px;
+    border-radius: 20px; 
+   }
+
+   .image {
+    width: 250px;
+    border-radius: 20px;
+   }
+   p {
+    color: hsl(220, 15%, 55%);
+    padding-top: 0;
+    font-size: 14px;
+   }
+
+   @media screen and (width: 375px){
+    .attribution{
+        margin: 100px 30px ;
+    }
+   }
